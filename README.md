@@ -1,10 +1,10 @@
 # 👋 Hi there, I'm Wasif!
 
 🎓 CSE student at North South University   
-💻 I love building web apps & solving coding problems
+💻 Still trying to "commit" myself to this lifestyle fully!
 
 ## 🔧 Tech Stack
-- Languages: C, C++, JavaScript, PHP
+- Languages: C, C++, Java, Python, JavaScript, PHP
 - Tools: MySQL, Git, VS Code
 - Web: HTML, CSS, JavaScript, Bootstrap
 
@@ -14,10 +14,9 @@
 ## 🧠 Learning
 - React.js
 - Django
-- Java
 
 ## 🌱 Currently Working On
-- A student attendance system using PHP & MySQL
+- An automated Google Meet bot
 
 ## 📫 Contact Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
