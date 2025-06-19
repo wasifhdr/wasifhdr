@@ -1,16 +1,24 @@
-## Hi there 👋
+# 👋 Hi, I'm Wasif
 
-<!--
-**wasifhdr/wasifhdr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 CSE student at North South University  
+👨‍🏫 English team member at Phoenix Admission Care  
+💻 I love building web apps & solving coding problems
 
-Here are some ideas to get you started:
+## 🔧 Tech Stack
+- Languages: C, C++, JavaScript, PHP
+- Tools: MySQL, Git, VS Code
+- Web: HTML, CSS, JavaScript, Bootstrap
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📈 GitHub Stats
+![Wasif's GitHub stats](https://github-readme-stats.vercel.app/api?username=wasifdev&show_icons=true&theme=tokyonight)
+
+## 🧠 Learning
+- React.js
+- Laravel
+- Problem solving with C++
+
+## 🌱 Currently Working On
+- A student attendance system using PHP & MySQL
+
+## 📫 Contact Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
