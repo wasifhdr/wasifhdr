@@ -1,7 +1,6 @@
 # 👋 Hi, I'm Wasif
 
-🎓 CSE student at North South University  
-👨‍🏫 English team member at Phoenix Admission Care  
+🎓 CSE student at North South University   
 💻 I love building web apps & solving coding problems
 
 ## 🔧 Tech Stack
