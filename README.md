@@ -13,8 +13,8 @@
 
 ## 🧠 Learning
 - React.js
-- Laravel
-- Problem solving with C++
+- Django
+- Java
 
 ## 🌱 Currently Working On
 - A student attendance system using PHP & MySQL
