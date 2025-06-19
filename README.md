@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Wasif
+# 👋 Hi there, I'm Wasif!
 
 🎓 CSE student at North South University   
 💻 I love building web apps & solving coding problems
@@ -9,7 +9,7 @@
 - Web: HTML, CSS, JavaScript, Bootstrap
 
 ## 📈 GitHub Stats
-![Wasif's GitHub stats](https://github-readme-stats.vercel.app/api?username=wasifdev&show_icons=true&theme=tokyonight)
+![Wasif's GitHub stats](https://github-readme-stats.vercel.app/api?username=wasifhdr&show_icons=true&theme=tokyonight)
 
 ## 🧠 Learning
 - React.js
