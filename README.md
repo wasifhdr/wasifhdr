@@ -20,7 +20,6 @@
 - 🧠 Into **AI / ML**, **vision-language models**, and turning **browser automation** into clean, reusable tools.
 - 📚 Also lead **Academics** work at **Phoenix Education** — English grammar, exam & admission-test material.
 - 💬 Ask me about Python, FastAPI, fine-tuning small VLMs, or Playwright automation.
-- ⚡ Fun fact: I'm still trying to *"commit"* myself to this lifestyle fully!
 
 ---
 
@@ -72,13 +71,6 @@
 
 ---
 
-## 🌱 Currently Learning
-
-![React](https://img.shields.io/badge/React.js-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-
----
-
 ## 📈 GitHub Stats
 
 <!--
@@ -91,10 +83,6 @@
 
 <img height="165" src="./stats.svg" alt="Wasif's GitHub stats" />
 <img height="165" src="./top-langs.svg" alt="Top languages" />
-
-<br/><br/>
-
-<img src="./github-calendar.svg" alt="Contribution calendar" width="88%" />
 
 <br/><br/>
 
