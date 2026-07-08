@@ -5,6 +5,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7AA2F7&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Wasif+%F0%9F%91%8B;Junior+Software+Developer+%40+Automata+One;CSE+Undergrad+%40+North+South+University;AI+%2F+ML+%2B+Browser+Automation+Enthusiast;Still+committing+to+the+dev+life+%F0%9F%98%84" alt="Typing SVG" />
 </a>
 
+<!-- Workspace GIF -->
+<img src="./desk.gif" alt="Cozy pixel-art coding workspace" width="480" />
+
 <p>
   <img src="https://komarev.com/ghpvc/?username=wasifhdr&label=Profile%20views&color=7aa2f7&style=flat" alt="profile views" />
 </p>
@@ -20,6 +23,7 @@
 - 🧠 Into **AI / ML**, **vision-language models**, and turning **browser automation** into clean, reusable tools.
 - 📚 Also lead **Academics** work at **Phoenix Education** — English grammar, exam & admission-test material.
 - 💬 Ask me about Python, FastAPI, fine-tuning small VLMs, or Playwright automation.
+- ⚡ Fun fact: I'm still trying to *"commit"* myself to this lifestyle fully!
 
 ---
 
@@ -68,6 +72,13 @@
 | 🎥 **Google Meet Bot** | Automated bot that joins & handles Google Meet sessions | Python · Playwright |
 | 🎫 **Issue Ticketing System** | Lightweight system for tracking and managing support tickets | Python · FastAPI |
 | 🩺 **Clinical Reasoning Research** | Multi-agent framework for medical QA (paper in progress) | Python · Unsloth · LLMs |
+
+---
+
+## 🌱 Currently Learning
+
+![React](https://img.shields.io/badge/React.js-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 
 ---
 
