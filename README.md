@@ -20,7 +20,6 @@
 - 🧠 Into **AI / ML**, **vision-language models**, and turning **browser automation** into clean, reusable tools.
 - 📚 Also lead **Academics** work at **Phoenix Education** — English grammar, exam & admission-test material.
 - 💬 Ask me about Python, FastAPI, fine-tuning small VLMs, or Playwright automation.
-- ⚡ Fun fact: I'm still trying to *"commit"* myself to this lifestyle fully!
 
 ---
 
