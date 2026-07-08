@@ -71,33 +71,25 @@
 
 ---
 
-
 ## 📈 GitHub Stats
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=wasifhdr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Wasif's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wasifhdr&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
-<br/>
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=wasifhdr&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
-
-### 📊 Contribution Graph
+<!--
+  These cards are regenerated every day by a GitHub Action (.github/workflows/metrics.yml)
+  and committed as static SVGs, so they always load — no rate-limit failures.
+  They will appear blank until the Action runs for the first time.
+-->
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wasifhdr&theme=tokyo-night&hide_border=true&area=true&custom_title=Wasif's%20Contribution%20Graph" alt="Contribution graph" />
+<img src="./github-metrics.svg" alt="Wasif's GitHub metrics" width="88%" />
 
-</div>
+<br/><br/>
 
-### 🏆 Trophies
+<img src="./github-calendar.svg" alt="Contribution calendar" width="88%" />
 
-<div align="center">
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=wasifhdr&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="GitHub trophies" />
+<img height="165" src="https://streak-stats.demolab.com?user=wasifhdr&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
 </div>
 
@@ -107,7 +99,7 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/wasif-hdr">
+<a href="https://linkedin.com/in/your-profile">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="https://github.com/wasifhdr">
