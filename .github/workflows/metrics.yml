@@ -1,48 +1,65 @@
 # .github/workflows/metrics.yml
-# Generates static SVG stat cards once a day and commits them to your profile repo.
+# Generates all profile cards as committed static SVGs once a day.
 # Because the images are committed files (not live services), they never fail to load.
 name: Metrics
 
 on:
-  # Rebuild the cards once a day (00:00 UTC)
+  # Rebuild once a day (00:00 UTC)
   schedule:
     - cron: "0 0 * * *"
   # Let you trigger a run manually from the Actions tab
   workflow_dispatch:
-  # Also rebuild whenever you push to main
+  # Also rebuild when you push to main
   push:
     branches: ["main"]
 
 jobs:
-  github-metrics:
+  readme-cards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      # ── Card 1: overview stats + top languages + achievements (replaces the old
-      #            stats card, top-languages card, and trophy row) ──────────────
-      - name: Stats, languages & achievements
-        uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: wasifhdr
-          config_timezone: Asia/Dhaka
 
-          base: header, activity, community, repositories, metadata
+      # ── Stats card (tokyonight) ──────────────────────────────────────────────
+      - name: Stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=wasifhdr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true
+          path: stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          plugin_languages: yes
-          plugin_languages_details: percentage
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
+      # ── Top languages card (tokyonight) ──────────────────────────────────────
+      - name: Top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=wasifhdr&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          path: top-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 0
+      # ── Streak card (tokyonight) ─────────────────────────────────────────────
+      - name: Streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=wasifhdr&theme=tokyonight&hide_border=true&disable_animations=true
+          path: streak.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
-      # ── Card 2: isometric 3D contribution calendar (replaces the activity graph) ──
+      # ── Commit the three cards above in a single push ────────────────────────
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg streak.svg
+          git commit -m "Update README cards [skip ci]" || echo "No changes to commit"
+          git push
+
+      # ── Isometric contribution calendar (commits itself via the GitHub API) ──
       - name: Contribution calendar
         uses: lowlighter/metrics@latest
         with:
